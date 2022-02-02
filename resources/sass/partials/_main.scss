@@ -1,0 +1,43 @@
+main {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.series {
+    background-color: #1c1c1c;
+    padding: 10px 0;
+
+    h2 {
+        position: relative;
+        bottom: 35px;
+        background-color: #0082F9;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .card {
+        text-decoration: none;
+        width: calc(100% / 6 - 30px);
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            max-height: 180px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        span {
+            color: #fff;
+            margin-top: 20px;
+        
+        }
+    }
+}

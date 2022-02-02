@@ -9,6 +9,51 @@
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+main {
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.series {
+  background-color: #1c1c1c;
+  padding: 10px 0;
+}
+.series h2 {
+  position: relative;
+  bottom: 35px;
+  background-color: #0082F9;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.series .row {
+  justify-content: center;
+}
+.series .card {
+  text-decoration: none;
+  width: calc(16.6666666667% - 30px);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.series .card img {
+  width: 100%;
+  max-height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.series .card span {
+  color: #fff;
+  margin-top: 20px;
 }
