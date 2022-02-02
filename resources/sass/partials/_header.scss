@@ -9,9 +9,9 @@ header {
   }
   .logo {
     display: flex;
+    justify-content: space-around;
     img {
       height: 70px;
-      margin-right: 200px;
     }
   }
   nav {

@@ -31,10 +31,10 @@ header {
 
 .logo {
   display: flex;
+  justify-content: space-around;
 }
 .logo img {
   height: 70px;
-  margin-right: 200px;
 }
 
 nav {

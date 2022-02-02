@@ -21,6 +21,8 @@
                 </a>
             @endforeach
         </div>
+    </div>
+
 
 <div class="row">
     <a href="#" class="load-more">load more</a>
